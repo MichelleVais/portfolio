@@ -1,0 +1,315 @@
+body {
+  font-family: "Assistant", sans-serif;
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  /* navigation bar */
+  /* header design */
+  /* icons under the header */
+  /* profile information */
+  /* download resume, black background and aqua text */
+  /* project boxes and h2 + a lot of h3 */
+  /* footer, connect us form */
+  /* contact information + icons */
+}
+body ol {
+  list-style-type: none;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+body .nav-bar-control {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 0px 15px 0px 15px;
+}
+body .nav-bar-left {
+  font-family: "Satisfy", cursive;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+body .nav-bar-left > img {
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+  padding-left: 7px;
+}
+body .header-control {
+  background-image: url(bg.jpeg);
+  background-color: rgb(129, 255, 255);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  padding: 30px;
+}
+body .header-control > p {
+  font-size: 14px;
+  text-align: center;
+}
+body .icons-control {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-height: 400px;
+  width: 100%;
+}
+body .icons-control > img {
+  max-height: 100%;
+  max-width: auto;
+}
+body hr {
+  max-width: 100%;
+}
+body .profile-info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 100%;
+}
+body .profile-info-box > img {
+  max-width: 150px;
+  height: auto;
+}
+body .download-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  background-color: black;
+  color: white;
+  font-size: 8px;
+  padding: 20px;
+}
+body .download-box > h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+body .download-box #download-button {
+  background-color: aqua;
+  color: black;
+  border-radius: 9px;
+  border-color: black;
+  padding: 2px;
+  font-size: 8px;
+  font-weight: bold;
+  width: 120px;
+  height: 20px;
+}
+body .download-box button > svg {
+  width: 8px;
+  height: auto;
+}
+body .project-boxes-name {
+  max-width: 100%;
+}
+body .project-boxes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(241, 241, 241);
+}
+body .project-boxes .box > img {
+  max-width: 265px;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+body .project-boxes .box > h3 {
+  font-family: "Satisfy", cursive;
+  margin-bottom: 5px;
+}
+body .project-boxes .box {
+  max-width: 265px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  margin: 0px 5px 10px;
+  padding-bottom: 7px;
+}
+body .project-boxes .box > p {
+  font-size: 14px;
+  padding: 0px 20px;
+}
+body .project-boxes .box-btn {
+  font-size: 14px;
+  padding: 5px;
+  background-color: aqua;
+  color: black;
+  border-radius: 8px;
+  outline: none;
+  border-color: black;
+}
+body .footer-control {
+  background-image: url(bg.jpeg);
+  background-color: rgb(129, 255, 255);
+  background-blend-mode: multiply;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 20px;
+}
+body .footer-control form > input {
+  border: none;
+  outline: none;
+  color: rgba(156, 156, 156, 0.751);
+  border-bottom: 2px solid rgb(126, 126, 126);
+  margin-bottom: 10px;
+  width: 100%;
+}
+body .footer-control #ta-control {
+  color: rgba(156, 156, 156, 0.751);
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgb(126, 126, 126);
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
+body .footer-control #btn2-control {
+  width: 40%;
+  color: black;
+  background-color: aqua;
+  font-weight: bold;
+  outline: solid rgba(82, 82, 82, 0.751);
+  border: none;
+  height: 30px;
+}
+body .cont-info {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(52, 52, 52, 0.799);
+  color: white;
+  max-width: 100%;
+}
+body .cont-info > img {
+  width: 30px;
+  height: auto;
+}
+body .row-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  padding: 0.625rem 1.25rem;
+}
+body .row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .last-line {
+  max-height: 30px;
+  background-color: rgba(23, 23, 23, 0.863);
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 6px 0px 6px;
+  border-bottom: 3px solid rgb(17, 193, 193);
+}
+@media screen and (min-width: 700px) {
+  body .nav-row {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  body .nav-bar-control {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+  body .header-control {
+    padding: 100px;
+    max-width: 100%;
+  }
+  body .header-control > p {
+    padding: 100px;
+  }
+  body .profile-info-box {
+    padding: 100px;
+  }
+  body .download-box {
+    align-items: flex-start;
+    padding-right: 15%;
+    max-width: 100%;
+  }
+  body .download-box > p {
+    font-size: 14px;
+  }
+  body .project-boxes-name {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 36px;
+    max-width: 100%;
+  }
+  body .project-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    padding: 40px;
+    max-width: 100%;
+  }
+  body form {
+    width: 40%;
+    padding-right: 10%;
+  }
+  body .footer-individual {
+    width: 40%;
+    padding-right: 10%;
+  }
+  body .cont-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  body .row-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 6.25rem;
+  }
+  body .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    padding: 0.625rem 1.25rem;
+  }
+}/*# sourceMappingURL=style.css.map */
